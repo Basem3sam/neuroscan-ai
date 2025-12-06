@@ -1,0 +1,150 @@
+# Brain Tumor Classifier - .gitignore
+
+# ===========================
+# Python
+# ===========================
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===========================
+# Virtual Environment
+# ===========================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv/
+
+# ===========================
+# PyTorch & Models
+# ===========================
+models/*.pth
+models/*.joblib
+*.pth
+*.joblib
+*.pt
+*.ckpt
+checkpoints/
+
+# Keep the models directory but ignore its contents
+!models/.gitkeep
+
+# ===========================
+# Dataset (Large Files)
+# ===========================
+Dataset/
+data/
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.bmp
+*.gif
+*.webp
+*.dcm
+*.nii
+*.nii.gz
+
+# Keep sample images for demo
+!assets/*.png
+!assets/*.jpg
+!demo_images/*.png
+!demo_images/*.jpg
+
+# ===========================
+# Training Logs & Outputs
+# ===========================
+logs/
+runs/
+*.log
+training_log.json
+tensorboard/
+wandb/
+
+# ===========================
+# IDEs
+# ===========================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Spyder
+.spyderproject
+.spyproject
+
+# ===========================
+# Operating System
+# ===========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ===========================
+# Cache & Temporary
+# ===========================
+__pycache__/
+*.pyc
+.cache/
+.pytest_cache/
+*.cover
+*.coverage
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ===========================
+# Miscellaneous
+# ===========================
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+.env
+.env.local
+secrets.yaml
+
+tempCodeRunnerFile.py
