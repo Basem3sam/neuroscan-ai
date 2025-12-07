@@ -179,7 +179,7 @@ Contributions welcome! Open issues or submit PRs.
 
 ```bibtex
 @software{neuroscan_ai_2024,
-  author = {Basem Eaam},
+  author = {Basem Esam},
   title = {NeuroScan-AI: Brain Tumor Detection System},
   year = {2024},
   url = {https://github.com/basem3sam/neuroscan-ai}
